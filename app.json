@@ -1,0 +1,40 @@
+{
+    "name": "koko hack string session",
+    "description": "A bot CAN DO ANYTHING",
+    "logo": "",
+    "keywords": [
+        "TELETHON",
+        "By koko",
+        "Telegram Bot",
+        "piro bolte",
+        "@T_G_L"
+    ],
+    "website": "",
+    "success_url": "https://t.me/ReallyKoko" ,
+    "env": {
+        "BOT_TOKEN": {
+            "description": "جيبه من بوت فاذر المطور @T_G_L @BotFather",
+            "value": ""
+        },
+        "API_HASH": {
+            "description": "جيبه من هنا my.telegram.org",
+            "value": ""
+        },
+        "APP_ID": {
+            "description": "جيبه من هنا my.telegram.org",
+            "value": ""
+        }
+    },
+    "addons": [],
+    "buildpacks": [
+        {
+            "url": "heroku/python"
+        }
+    ],
+    "formation": {
+        "worker": {
+            "quantity": 1,
+            "size": "free"
+        }
+    }
+}
